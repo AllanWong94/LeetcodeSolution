@@ -71,7 +71,7 @@ public class Solution {
 
 
 
-/*  Runtime:10ms 
+/*  Runtime:10ms
     public int maxPoints(Point[] points) {
         if (points == null || points.length == 0) {
             return 0;
