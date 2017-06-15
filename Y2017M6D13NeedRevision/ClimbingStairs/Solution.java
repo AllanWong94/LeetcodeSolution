@@ -1,6 +1,4 @@
-package Y2017M6D13.ClimbingStairs;
-
-import java.util.LinkedList;
+package Y2017M6D13NeedRevision.ClimbingStairs;
 
 /**
  * Created by Allan Wong on 2017/6/13.

@@ -1,4 +1,4 @@
-package Y2017M6D13.SingleNumberII_NeedRevision;
+package Y2017M6D13NeedRevision.SingleNumberII_NeedRevision;
 
 /**
  * Created by Allan Wong on 2017/6/14.
