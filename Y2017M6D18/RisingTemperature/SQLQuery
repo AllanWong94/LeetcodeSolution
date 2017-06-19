@@ -1,0 +1,13 @@
+//Runtime:1556ms Better than or equals to 7%
+SELECT wt1.ID
+FROM Weather wt1, Weather wt2
+WHERE wt1.Temperature > wt2.Temperature AND TO_DAYS(wt1.Date)-TO_DAYS(wt2.Date)=1
+
+//Runtime: 673ms
+select Id from(
+select case
+when Temperature>@prevtemp and DATEDIFF(Date,@prevdate)=1 then Id else Null end as Id,
+@prevtemp:=Temperature,
+@prevdate:=Date
+from Weather, (select @prevtemp:=Null, @prevdate:=0) init order by Date asc
+) as d where Id is not null
