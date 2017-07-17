@@ -14,7 +14,7 @@ public class ConvertNames {
 
 
     public static void main(String[] args) {
-        String s="Merge Two Binary Trees";
+        String s="Search in Rotated Sorted Array";
         System.out.println(convert(s));
     }
 }
