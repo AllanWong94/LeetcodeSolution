@@ -14,7 +14,7 @@ public class ConvertNames {
 
 
     public static void main(String[] args) {
-        String s="Search in Rotated Sorted Array";
+        String s="Range Sum Query - Immutable";
         System.out.println(convert(s));
     }
 }
