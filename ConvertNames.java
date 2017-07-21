@@ -14,7 +14,7 @@ public class ConvertNames {
 
 
     public static void main(String[] args) {
-        String s="Range Sum Query - Immutable";
+        String s="Remove Linked List Elements";
         System.out.println(convert(s));
     }
 }
