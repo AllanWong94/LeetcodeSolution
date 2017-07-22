@@ -14,7 +14,7 @@ public class ConvertNames {
 
 
     public static void main(String[] args) {
-        String s="Remove Linked List Elements";
+        String s="Remove Duplicates from Sorted List";
         System.out.println(convert(s));
     }
 }
