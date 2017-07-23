@@ -14,7 +14,7 @@ public class ConvertNames {
 
 
     public static void main(String[] args) {
-        String s="Remove Duplicates from Sorted List";
+        String s="Linked List Cycle II";
         System.out.println(convert(s));
     }
 }
