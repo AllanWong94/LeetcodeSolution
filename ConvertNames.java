@@ -14,7 +14,7 @@ public class ConvertNames {
 
 
     public static void main(String[] args) {
-        String s="Top K Frequent Elements";
+        String s="Minimum Moves to Equal Array Elements";
         System.out.println(convert(s));
     }
 }
