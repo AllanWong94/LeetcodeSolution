@@ -14,7 +14,7 @@ public class ConvertNames {
 
 
     public static void main(String[] args) {
-        String s="Binary Tree Level Order Traversal II";
+        String s="Diameter of Binary Tree";
         System.out.println(convert(s));
     }
 }
